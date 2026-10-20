@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "B站动态已读助手",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "展开评论或打开动态、视频后记为已读，按时间筛选并隐藏已读动态。数据仅保存在本机。",
   "minimum_chrome_version": "111",
   "permissions": ["storage"],

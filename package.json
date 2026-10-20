@@ -1,6 +1,6 @@
 {
   "name": "bilibili-feed-reader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "description": "B站动态已读管理 Edge 扩展",
   "license": "MIT",

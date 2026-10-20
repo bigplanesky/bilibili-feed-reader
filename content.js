@@ -19,7 +19,7 @@
   function makePanel() {
     panel = document.createElement("aside"); panel.id = "bfr-panel"; panel.setAttribute("aria-label", "B站动态已读助手");
     // Static extension-owned markup only. Website text is never assigned to innerHTML.
-    panel.dataset.version = "1.0.1";
+    panel.dataset.version = "1.0.2";
     panel.innerHTML = `<div class="bfr-head"><strong>动态已读助手</strong><button class="bfr-fold" type="button" aria-label="收起工具栏" aria-expanded="true">−</button></div><div class="bfr-body"><div class="bfr-row"><label><input class="bfr-hide" type="checkbox"> 隐藏已读</label></div><div class="bfr-row"><label for="bfr-days">时间范围</label><select id="bfr-days"><option value="7">最近 7 天</option><option value="30">最近 30 天</option><option value="90">最近 90 天</option><option value="0">全部</option></select></div><button class="bfr-apply" type="button">重新应用筛选</button><div class="bfr-count"></div><div class="bfr-status" role="status" aria-live="polite"></div><div class="bfr-notice" role="alert" hidden></div><button class="bfr-more" type="button" hidden>继续查找未读</button></div>`;
     document.body.append(panel);
     ui = {

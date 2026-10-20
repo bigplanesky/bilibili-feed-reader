@@ -1,5 +1,6 @@
 .bfr-hidden { display: none !important; }
 .bfr-native-paused { display: none !important; }
+.bili-dyn-item[data-bfr-status='read'] { background-color: #e8f5ec !important; }
 .bfr-card-tools { display: flex; justify-content: flex-end; align-items: center; clear: both; min-height: 26px; margin: 0 0 8px; }
 .bfr-marker { display: inline-flex; position: static; align-items: center; gap: 6px; margin: 0; padding: 3px 9px; border-radius: 6px; border: 1px solid #b8dbe7; background: #effaff; color: #087a9c; font: 12px/1.5 system-ui, sans-serif; cursor: pointer; vertical-align: middle; white-space: nowrap; box-sizing: border-box; max-width: 100%; }
 .bfr-marker[data-read='true'] { color: #52705e; border-color: #c6dfcf; background: #f0f8f2; }
