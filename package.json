@@ -1,0 +1,18 @@
+{
+  "name": "bilibili-feed-reader",
+  "version": "1.0.1",
+  "private": true,
+  "description": "B站动态已读管理 Edge 扩展",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bigplanesky/bilibili-feed-reader.git"
+  },
+  "scripts": {
+    "test": "node --test tests/core.test.cjs",
+    "test:browser": "node tests/server.cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

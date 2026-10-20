@@ -1,0 +1,27 @@
+.bfr-hidden { display: none !important; }
+.bfr-native-paused { display: none !important; }
+.bfr-card-tools { display: flex; justify-content: flex-end; align-items: center; clear: both; min-height: 26px; margin: 0 0 8px; }
+.bfr-marker { display: inline-flex; position: static; align-items: center; gap: 6px; margin: 0; padding: 3px 9px; border-radius: 6px; border: 1px solid #b8dbe7; background: #effaff; color: #087a9c; font: 12px/1.5 system-ui, sans-serif; cursor: pointer; vertical-align: middle; white-space: nowrap; box-sizing: border-box; max-width: 100%; }
+.bfr-marker[data-read='true'] { color: #52705e; border-color: #c6dfcf; background: #f0f8f2; }
+.bfr-marker:disabled { cursor: default; color: #777; background: #f5f5f5; border-color: #ddd; }
+.bfr-marker:focus-visible { outline: 2px solid #00a1d6; outline-offset: 2px; }
+#bfr-panel { position: fixed; z-index: 10000; top: 80px; right: 16px; width: 258px; max-width: calc(100vw - 32px); color: #263c48; background: #fff; border: 1px solid #dbe8ed; border-radius: 12px; box-shadow: 0 6px 24px #16374622; font: 13px/1.65 system-ui, 'Microsoft YaHei', sans-serif; color-scheme: light; }
+#bfr-panel * { box-sizing: border-box; }
+#bfr-panel .bfr-head { display: flex; align-items: center; justify-content: space-between; padding: 10px 13px; background: #eef9fd; border-radius: 12px 12px 0 0; }
+#bfr-panel .bfr-head strong { font-size: 14px; }
+#bfr-panel .bfr-body { padding: 12px 13px; }
+#bfr-panel .bfr-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 10px; }
+#bfr-panel label { cursor: pointer; }
+#bfr-panel input { accent-color: #079ec8; vertical-align: middle; }
+#bfr-panel select { width: 113px; border: 1px solid #cfdee5; background: white; color: #263c48; border-radius: 6px; padding: 4px; font: inherit; }
+#bfr-panel button { border: 1px solid #c7dce6; border-radius: 6px; background: #f5fbfd; color: #096f90; padding: 5px 8px; font: inherit; cursor: pointer; }
+#bfr-panel button:hover { background: #e2f5fc; }
+#bfr-panel button:disabled { opacity: .55; cursor: wait; }
+#bfr-panel .bfr-fold { border: 0; padding: 0 4px; background: transparent; font-size: 16px; }
+#bfr-panel .bfr-apply { width: 100%; }
+#bfr-panel .bfr-count { margin: 9px 0 4px; font-size: 12px; color: #526c79; }
+#bfr-panel .bfr-status { font-size: 12px; color: #526c79; overflow-wrap: anywhere; }
+#bfr-panel .bfr-notice { font-size: 12px; color: #a65c19; margin-top: 7px; }
+#bfr-panel .bfr-more { width: 100%; margin-top: 8px; }
+#bfr-panel [hidden] { display: none !important; }
+@media (max-width: 1000px) { #bfr-panel { top: auto; bottom: 16px; right: 12px; width: 238px; } }

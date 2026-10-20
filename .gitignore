@@ -1,0 +1,12 @@
+node_modules/
+.cache/
+*.log
+
+# 本机迁移记录、真实账号截图、历史安装包不进入公开仓库。
+/artifacts/
+/releases/
+/docs/迁移说明.md
+.DS_Store
+Thumbs.db
+.env
+.env.*
